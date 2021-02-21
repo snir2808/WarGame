@@ -1,0 +1,139 @@
+html{
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p{
+  width: 150px;
+  height: 150px;
+  color: antiquewhite;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top:90px;
+  font-size: 50px;
+}
+@font-face {
+  font-family: "BloodshotSoldierDemo";
+  src: local('./media/BloodshotSoldierDemo-rg3rA.ttf'),
+    url("./media/BloodshotSoldierDemo-rg3rA.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "WorldAtWar";
+  src: local('./media/CfWorldAtWarPersoRegular-rg2qp.ttf'),
+    url("./media/CfWorldAtWarPersoRegular-rg2qp.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "WarOfDeathBold";
+  src: local('./media/WarOfDeathBold-rGn8.ttf'),
+    url("./media/WarOfDeathBold-rGn8.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "DeathFromAbove";
+  src: local('./media/DeathFromAbove-Ow9P.ttf'),
+    url("./media/DeathFromAbove-Ow9P.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Godofwar";
+  src: local('./media/Godofwar-nRA8V.ttf'),
+    url("./media/Godofwar-nRA8V.ttf") format("truetype");
+  font-weight: normal;
+}
+.lose{
+  font-family: "BloodshotSoldierDemo";
+  font-size: 70px;
+  color: #F20505;
+
+}
+.win{
+  font-family: "DeathFromAbove";
+  color: #448C30;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+h2{
+  font-family: "DeathFromAbove";
+  font-size: 70px;
+  letter-spacing: 4px;
+}
+.start{
+  font-size: 35px;
+}
+.rforw{
+  font-family: "Godofwar";
+  color: #F20505;
+  font-size: 70px;
+  margin: 0 auto;
+}
+.game{
+  background-image: url('./media/NicePng_poker-table-png_1898993.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.gameName{
+  font-family: "WarOfDeathBold";
+  color: antiquewhite;
+  font-size: 50px;
+}
+img{
+  margin-top: -75px;
+}
+.rforw1{
+  font-family: "Godofwar";
+  color: #F20505;
+  font-size: 150px;
+  text-align: center;
+  margin-top: -80px;
+}
+
+
+
+
+
+
+
+
+
+
